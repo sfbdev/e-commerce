@@ -1,0 +1,15 @@
+﻿.cart{
+  border: 1px solid #E2E7E9;
+  padding: 15px;
+  .product{
+    &-image{
+
+    }
+
+    &-info{
+      .name, .shipping{
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿.header{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  height: var(--header-height);
+  .search{
+    img{
+      position: absolute;
+      top: 16px;
+      left: 20px;
+    }
+    input{
+      height: 50px;
+      border: 2px solid var(--border-color);
+      background-color: var(--search-bg);
+      color: var(--text-gray);
+      padding: 0px 20px 0px 45px;
+      font-size: 15px;
+    }
+    .btn-search{
+      top: 5px;
+      right: 5px;
+      padding: 7px 20px;
+    }
+  }
+}
