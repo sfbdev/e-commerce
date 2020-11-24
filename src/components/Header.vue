@@ -9,6 +9,7 @@
         class="radius-circle w-100 font-15px"
         type="text"
         placeholder="Ürün Ara"
+        v-model="searchQuery"
       />
       <a
         class="btn bg-secondary text-white position-absolute btn-search"
@@ -21,6 +22,7 @@
       <a
         href="#"
         class="btn d-flex align-items-center bg-primary btn-basket text-white position-relative"
+        @click="openBasket()"
       >
         <img src="@/assets/images/icon/shop.svg" alt="Shop" />
         <span class="text ml-1">Sepetim</span>
@@ -44,15 +46,19 @@
         </div>
       </div>
     </div>
+
+    <app-basket v-if="basket.open"/>
   </div>
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapState, mapActions } from "vuex";
 
 export default {
   data() {
-    return {};
+    return {
+      searchQuery: "",
+    };
   },
 
   computed: {
@@ -61,9 +67,22 @@ export default {
       basketPrize: (state) => state.basketPrize,
     }),
 
-    amountBarStyle(){
-      return this.basket.amount <= 500 ? 'w-' + this.basket.amount / 5 : 'w-100';
-    }
+    amountBarStyle() {
+      return this.basket.amount <= 500
+        ? "w-" + Math.floor(this.basket.amount / 5)
+        : "w-100";
+    },
+  },
+
+  methods: {
+    ...mapActions({
+      setSearchQuery: "setSearchQuery",
+      setBasketStatus: "setBasketStatus",
+    }),
+
+    openBasket() {
+      this.setBasketStatus(!this.basket.open);
+    },
   },
 };
 </script>

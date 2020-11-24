@@ -13,6 +13,7 @@ export default new Vuex.Store({
     basket: {
       count: 0,
       amount: 0,
+      open: false,
       products: [],
     },
     categories: [{
@@ -251,6 +252,7 @@ export default new Vuex.Store({
         price: '59,90',
       },
     ],
+    searchQuery: '',
   },
   mutations: {
     SET_ACTIVE_CATEGORY(state, category) {
@@ -261,6 +263,12 @@ export default new Vuex.Store({
       state.basket.count = state.basket.products.length;
       state.basket.amount += Math.floor(parseInt(product.price));
       alert('Ürün Sepete Eklendi'); // eslint-disable-line no-alert
+    },
+    SET_SEARCH_QUERY(state, query) {
+      state.searchQuery = query;
+    },
+    SET_BASKET_STATUS(state, status) {
+      state.basket.open = status;
     },
   },
   actions: {
@@ -274,6 +282,18 @@ export default new Vuex.Store({
     }, product) {
       commit('ADD_PRODUCT_BASKET', product);
     },
+    setSearchQuery({
+      commit,
+    }, query) {
+      commit('SET_SEARCH_QUERY', query);
+    },
+
+    setBasketStatus({
+      commit
+    }, status) {
+      commit('SET_BASKET_STATUS', status);
+
+    }
   },
   modules: {},
 });

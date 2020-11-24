@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { mapState } from 'vuex';
+import { mapState } from "vuex";
 
 export default {
   data() {
@@ -24,13 +24,15 @@ export default {
     ...mapState({
       activeCategory: (state) => state.activeCategory,
       allProducts: (state) => state.products,
+      searchQuery: (state) => state.searchQuery,
     }),
 
     filteredProducts() {
-      const filterProducts = this.allProducts.filter((product) => product.categoryId.some(
-        (category) => category === this.activeCategory.id,
-      ));
-
+      const filterProducts = this.allProducts.filter((product) =>
+        product.categoryId.some(
+          (category) => category === this.activeCategory.id
+        )
+      );
       return filterProducts;
     },
   },
