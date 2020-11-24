@@ -5,12 +5,38 @@
   border: 1px solid var(--border-color);
   border-radius: 11px;
   position: fixed;
-  z-index: 1;
+  z-index: 1100;
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
   margin: auto;
   overflow: auto;
+  padding: 20px 20px 0px 20px;
+  .close{
+    right: 10px;
+    top: 10px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .product{
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px 0px;
+  }
+  .total{
+    position: sticky;
+    background: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px;
+    .clear-basket-button{
+      &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
 
 }

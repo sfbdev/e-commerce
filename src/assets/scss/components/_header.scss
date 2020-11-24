@@ -63,6 +63,9 @@
       background-color: #F54257;
       border-radius: 11px;
       top: 65px;
+      @media (max-width: 576px){
+        left: -40%;
+      }
 
       &::before {
         content: "";

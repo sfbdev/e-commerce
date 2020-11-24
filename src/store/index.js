@@ -79,6 +79,7 @@ export default new Vuex.Store({
         name: 'Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth',
         image: 'product-1.png',
         shippingMethod: 1,
+        count: 1,
         price: '399,90',
       },
       {
@@ -87,6 +88,7 @@ export default new Vuex.Store({
         name: 'Calvin Klein Euphoria EDP 100 ml Kadın Parfüm',
         image: 'product-2.png',
         shippingMethod: 0,
+        count: 1,
         price: '145',
       },
       {
@@ -95,6 +97,7 @@ export default new Vuex.Store({
         name: 'Gold Çizgili Vazoda 2 Dal Orkide Çiçeği',
         image: 'product-3.png',
         shippingMethod: 1,
+        count: 1,
         price: '249,90',
       },
       {
@@ -103,6 +106,7 @@ export default new Vuex.Store({
         name: '925 Ayar Gümüş Çeyreklik Bileklik (Y)',
         image: 'product-4.png',
         shippingMethod: 0,
+        count: 1,
         price: '329,90',
       },
       {
@@ -111,6 +115,7 @@ export default new Vuex.Store({
         name: 'Sailor SD-3160 Siyah Dağcı Seyahat Sırt Çantası 55 LT Outdoor-Trekking',
         image: 'product-5.png',
         shippingMethod: 1,
+        count: 1,
         price: '499,90',
       },
       {
@@ -119,6 +124,7 @@ export default new Vuex.Store({
         name: 'Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev...',
         image: 'product-6.png',
         shippingMethod: 1,
+        count: 1,
         price: '19,90',
       },
       {
@@ -127,6 +133,7 @@ export default new Vuex.Store({
         name: '130 Cm Papyonlu Büyük Ayıcı (%100 Yerli)',
         image: 'product-7.png',
         shippingMethod: 1,
+        count: 1,
         price: '89,90',
       },
       {
@@ -135,6 +142,7 @@ export default new Vuex.Store({
         name: '925 Ayar Gümüş Dualı İsimli Nazar İgnesi',
         image: 'product-8.png',
         shippingMethod: 1,
+        count: 1,
         price: '29,90',
       },
       {
@@ -143,6 +151,7 @@ export default new Vuex.Store({
         name: 'Özel Tatlar Çikolata Kutusu 300 gr',
         image: 'product-9.png',
         shippingMethod: 1,
+        count: 1,
         price: '59,90',
       },
       {
@@ -151,6 +160,7 @@ export default new Vuex.Store({
         name: 'Kucak Dolusu Aşk 25 Kırmızı Gül Buketi',
         image: 'product-1.png',
         shippingMethod: 0,
+        count: 1,
         price: '199,90',
       },
       {
@@ -159,6 +169,7 @@ export default new Vuex.Store({
         name: 'Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth',
         image: 'product-3.png',
         shippingMethod: 0,
+        count: 1,
         price: '145',
       },
       {
@@ -167,6 +178,7 @@ export default new Vuex.Store({
         name: 'Kucak Dolusu Aşk 25 Kırmızı Gül Buketi',
         image: 'product-5.png',
         shippingMethod: 0,
+        count: 1,
         price: '145',
       },
       {
@@ -175,6 +187,7 @@ export default new Vuex.Store({
         name: 'Gold Çizgili Vazoda 2 Dal Orkide Çiçeği',
         image: 'product-3.png',
         shippingMethod: 1,
+        count: 1,
         price: '249,90',
       },
       {
@@ -183,6 +196,7 @@ export default new Vuex.Store({
         name: 'Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth',
         image: 'product-1.png',
         shippingMethod: 1,
+        count: 1,
         price: '399,90',
       },
       {
@@ -191,6 +205,7 @@ export default new Vuex.Store({
         name: 'Calvin Klein Euphoria EDP 100 ml Kadın Parfüm',
         image: 'product-2.png',
         shippingMethod: 0,
+        count: 1,
         price: '145',
       },
 
@@ -200,6 +215,7 @@ export default new Vuex.Store({
         name: '130 Cm Papyonlu Büyük Ayıcı (%100 Yerli)',
         image: 'product-7.png',
         shippingMethod: 1,
+        count: 1,
         price: '89,90',
       },
       {
@@ -208,6 +224,7 @@ export default new Vuex.Store({
         name: '925 Ayar Gümüş Çeyreklik Bileklik (Y)',
         image: 'product-4.png',
         shippingMethod: 0,
+        count: 1,
         price: '329,90',
       },
       {
@@ -216,6 +233,7 @@ export default new Vuex.Store({
         name: 'Sailor SD-3160 Siyah Dağcı Seyahat Sırt Çantası 55 LT Outdoor-Trekking',
         image: 'product-5.png',
         shippingMethod: 1,
+        count: 1,
         price: '499,90',
       },
       {
@@ -224,6 +242,7 @@ export default new Vuex.Store({
         name: 'Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev...',
         image: 'product-6.png',
         shippingMethod: 1,
+        count: 1,
         price: '19,90',
       },
 
@@ -233,6 +252,7 @@ export default new Vuex.Store({
         name: 'Kucak Dolusu Aşk 25 Kırmızı Gül Buketi',
         image: 'product-7.png',
         shippingMethod: 0,
+        count: 1,
         price: '199,90',
       },
       {
@@ -241,6 +261,7 @@ export default new Vuex.Store({
         name: '925 Ayar Gümüş Dualı İsimli Nazar İgnesi',
         image: 'product-8.png',
         shippingMethod: 1,
+        count: 1,
         price: '29,90',
       },
       {
@@ -249,6 +270,7 @@ export default new Vuex.Store({
         name: 'Özel Tatlar Çikolata Kutusu 300 gr',
         image: 'product-9.png',
         shippingMethod: 1,
+        count: 1,
         price: '59,90',
       },
     ],
@@ -262,6 +284,7 @@ export default new Vuex.Store({
       state.basket.products.push(product);
       state.basket.count = state.basket.products.length;
       state.basket.amount += Math.floor(parseInt(product.price));
+
       alert('Ürün Sepete Eklendi'); // eslint-disable-line no-alert
     },
     SET_SEARCH_QUERY(state, query) {
@@ -269,6 +292,12 @@ export default new Vuex.Store({
     },
     SET_BASKET_STATUS(state, status) {
       state.basket.open = status;
+    },
+    DELETE_BASKET(state) {
+      state.basket.products = [];
+      state.basket.count = 0;
+      state.basket.amount = 0;
+
     },
   },
   actions: {
@@ -292,6 +321,11 @@ export default new Vuex.Store({
       commit
     }, status) {
       commit('SET_BASKET_STATUS', status);
+    },
+    deleteBasket({
+      commit
+    }) {
+      commit('DELETE_BASKET');
 
     }
   },
