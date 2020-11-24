@@ -5,13 +5,14 @@ body {
 }
 
 input {
-
   &:focus,
   &:active {
     outline: 0;
 
   }
 }
+
+//helper classes
 
 .radius-circle {
   border-radius: var(--radius);

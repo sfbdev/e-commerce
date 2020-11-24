@@ -6,14 +6,14 @@
   --secondary: #51B549;
   --secondary-l: #FFDDE4;
 
-  --tertiary: #FFC629;
-  --tertiary-l: #F6ECCC;
+  --tertiary: #ffffff;
+  --tertiary-l: #ffffff;
 
-  --quaternary: #3C89CE;
-  --quaternary-l: #C6E5F7;
+  --quaternary: #ffffff;
+  --quaternary-l: #ffffff;
 
-  --fifth: #9249A8;
-  --fifth-l: #DFC2E8;
+  --fifth: #ffffff;
+  --fifth-l: #ffffff;
 
   --white: #ffffff;
   --black: #000000;
@@ -30,17 +30,14 @@
   --lg-screen: 992px;
   --xl-screen: 1200px;
 
-
   --search-bg: #F7F7F7;
+   --footer-bg: #F2F2F2;
+  --footer-bottom-bg: #E6E6E6;
+  --border-color: #EDF1F2;
 
   --header-height: 90px;
-
   --radius: 28px;
-
-  --footer-bg: #F2F2F2;
-  --footer-bottom-bg: #E6E6E6;
-
-  --border-color: #EDF1F2;
+ 
 }
 
 @for $i from 0 through 150 {
