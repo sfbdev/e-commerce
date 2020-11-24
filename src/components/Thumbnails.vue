@@ -1,7 +1,7 @@
 <template>
   <div class="thumbnails">
     <div class="row">
-      <div class="col-lg-4 mb-2">
+      <div class="col-lg-4 mb-2 pl-0">
         <div class="item d-flex align-items-center item-1">
           <div class="image">
             <img
@@ -14,11 +14,11 @@
             <span class="title font-24px text-light d-block"
               >75 TL Üzerine Teslimat Ücreti Bizden</span
             >
-            <a href="" class="btn bg-white">Detaylı Bilgi</a>
+            <a href="" class="btn bg-white font-13px">Detaylı Bilgi</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-2">
+      <div class="col-lg-4 mb-2 pl-0 pr-0">
         <div class="item d-flex align-items-center item-2">
           <div class="image">
             <img
@@ -31,11 +31,11 @@
             <span class="title font-24px text-light d-block"
               >75 TL Üzerine Teslimat Ücreti Bizden</span
             >
-            <a href="" class="btn bg-white">Detaylı Bilgi</a>
+            <a href="" class="btn bg-white font-13px">Detaylı Bilgi</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-2">
+      <div class="col-lg-4 mb-2 pr-0">
         <div class="item d-flex align-items-center item-3">
           <div class="image">
             <img
@@ -48,7 +48,7 @@
             <span class="title font-24px text-light d-block"
               >75 TL Üzerine Teslimat Ücreti Bizden</span
             >
-            <a href="" class="btn bg-white">Detaylı Bilgi</a>
+            <a href="" class="btn bg-white font-13px">Detaylı Bilgi</a>
           </div>
         </div>
       </div>

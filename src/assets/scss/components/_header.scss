@@ -55,5 +55,41 @@
         right: 0;
       }
     }
+
+    .amount-prize {
+      position: absolute;
+      padding: 15px;
+      width: 300px;
+      background-color: #F54257;
+      border-radius: 11px;
+      top: 65px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -13px;
+        right: 50px;
+        width: 0;
+        height: 0;
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-bottom: 14px solid #F54257;
+      }
+
+      .amount-bar {
+        height: 5px;
+        background-color: #D01D32;
+        border-radius: 11px;
+        margin-top: 10px;
+        position: relative;
+        &-done{
+          height: 5px;
+          position: absolute;
+          border-radius: 11px;
+          background-color: #FFCE00;
+        }
+
+      }
+    }
   }
 }

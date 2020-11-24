@@ -1,6 +1,6 @@
 <template>
   <div class="product-list d-flex flex-column p-0">
-    <div class="product-list-title d-flex align-items-center">
+    <div class="product-list-title d-flex align-items-center col-12">
       <img src="@/assets/images/icon/category.svg" alt="Category" />
       <span class="ml-2 font-20px text-light">{{ activeCategory.name }}</span>
     </div>

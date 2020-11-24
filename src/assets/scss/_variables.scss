@@ -48,6 +48,9 @@
   .mt-#{$i}px {
     margin-top: #{$i}px !important;
   }
+  .w-#{$i}{
+    width: #{$i+'%'} !important;
+  }
 }
 
 $theme-colors: ("primary": var(--primary),

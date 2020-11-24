@@ -16,49 +16,49 @@
       @media (min-width: 576px) and (max-width: 992px) {
         width: 50%;
 
-        &:nth-child(odd) {
-          .product {
-            margin-left: 0px;
-          }
-        }
+        // &:nth-child(odd) {
+        //   .product {
+        //     margin-left: 0px;
+        //   }
+        // }
 
-        &:nth-child(even) {
-          .product {
-            margin-right: 0px;
-          }
-        }
+        // &:nth-child(even) {
+        //   .product {
+        //     margin-right: 0px;
+        //   }
+        // }
       }
 
       @media (min-width: 992px) and (max-width: 1200px) {
         width: 33%;
 
-        &:nth-child(3n-2) {
-          .product {
-            margin-left: 0px
-          }
-        }
+        // &:nth-child(3n-2) {
+        //   .product {
+        //     margin-left: 0px
+        //   }
+        // }
 
-        &:nth-child(3n) {
-          .product {
-            margin-right: 0px;
-          }
-        }
+        // &:nth-child(3n) {
+        //   .product {
+        //     margin-right: 0px;
+        //   }
+        // }
       }
 
       @media (min-width: 1200px) {
         width: 20%;
 
-        &:nth-child(5n-4) {
-          .product {
-            margin-left: 0px;
-          }
-        }
+        // &:nth-child(5n-4) {
+        //   .product {
+        //     margin-left: 0px;
+        //   }
+        // }
 
-        &:nth-child(5n) {
-          .product {
-            margin-right: 0px;
-          }
-        }
+        // &:nth-child(5n) {
+        //   .product {
+        //     margin-right: 0px;
+        //   }
+        // }
 
       }
 
