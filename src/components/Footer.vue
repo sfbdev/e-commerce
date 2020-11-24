@@ -1,5 +1,6 @@
 <template>
-  <div></div>
+  <div>hi
+  </div>
 </template>
 
 <script>

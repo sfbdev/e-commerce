@@ -1,1 +1,36 @@
-﻿
+﻿.product-list {
+  margin-top: 60px;
+
+  &-title {
+    span {
+      font-weight: 300;
+    }
+  }
+
+  &-content {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+
+    .cart {
+
+      @media (min-width: 576px) and (max-width: 768px) {
+        width: 100%;
+      }
+
+      @media (min-width: 768px) and (max-width: 992px) {
+        width: 50%;
+      }
+
+      @media (min-width: 992px) and (max-width: 1200px) {
+        width: 33%;
+      }
+
+      @media (min-width: 1200px) {
+        width: 25%;
+
+      }
+
+    }
+  }
+}

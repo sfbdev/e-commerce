@@ -146,7 +146,7 @@ export default new Vuex.Store({
         id: 10,
         categoryId: [1, 2, 3],
         name: 'Kucak Dolusu Aşk 25 Kırmızı Gül Buketi',
-        image: 'product-10.png',
+        image: 'product-1.png',
         shippingMethod: 0,
         price: '199,90'
       },
@@ -154,7 +154,7 @@ export default new Vuex.Store({
         id: 11,
         categoryId: [1, 5, 6, 11],
         name: 'Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth',
-        image: 'product-11.png',
+        image: 'product-3.png',
         shippingMethod: 0,
         price: '145'
       },
@@ -228,7 +228,7 @@ export default new Vuex.Store({
         id: 20,
         categoryId: [1, 10],
         name: 'Kucak Dolusu Aşk 25 Kırmızı Gül Buketi',
-        image: 'product-10.png',
+        image: 'product-7.png',
         shippingMethod: 0,
         price: '199,90'
       },
