@@ -33,8 +33,9 @@
 </template>
 
 <script>
-import { mapActions } from "vuex";
-name: "cart";
+import { mapActions } from 'vuex';
+
+'cart';
 export default {
   props: {
     product: {
@@ -48,7 +49,7 @@ export default {
 
   methods: {
     ...mapActions({
-      setProductBasket: "setProductBasket",
+      setProductBasket: 'setProductBasket',
     }),
     pushToBasket(product) {
       this.setProductBasket(product);

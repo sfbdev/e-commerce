@@ -9,7 +9,8 @@
 </template>
 
 <script>
-name: "page-title";
+'page-title';
+
 export default {
   data() {
     return {};

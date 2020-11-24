@@ -20,7 +20,8 @@
 </template>
 
 <script>
-import { mapActions, mapState } from "vuex";
+import { mapActions, mapState } from 'vuex';
+
 export default {
   data() {
     return {};
@@ -35,12 +36,12 @@ export default {
 
   methods: {
     ...mapActions({
-      setActiveCategory: "setActiveCategory"
+      setActiveCategory: 'setActiveCategory',
     }),
 
-    pushActiveCategory(category){
+    pushActiveCategory(category) {
       this.setActiveCategory(category);
-    }
+    },
   },
 };
 </script>

@@ -1,5 +1,5 @@
-﻿<template>
-  <div class="product-list d-flex flex-column">
+<template>
+  <div class="product-list d-flex flex-column p-0">
     <div class="product-list-title d-flex align-items-center">
       <img src="@/assets/images/icon/category.svg" alt="Category" />
       <span class="ml-2 font-20px text-light">{{ activeCategory.name }}</span>
@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
-name: "product-list";
+import { mapState } from 'vuex';
+
 export default {
   data() {
     return {};
@@ -27,11 +27,9 @@ export default {
     }),
 
     filteredProducts() {
-      const filterProducts = this.allProducts.filter((product) => {
-        return product.categoryId.some((category) => {
-          return category == this.activeCategory.id;
-        });
-      });
+      const filterProducts = this.allProducts.filter((product) => product.categoryId.some(
+        (category) => category === this.activeCategory.id,
+      ));
 
       return filterProducts;
     },

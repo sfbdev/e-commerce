@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <ul class="breadcrumb bg-white mt-10px mb-0 p-0">
     <li class="pr-1">
       <a class="text-gray" href="#">Ciceksepeti Market > </a>
@@ -13,7 +13,8 @@
 </template>
 
 <script>
-name: "breadcrumb";
+'breadcrumb';
+
 export default {
   data() {
     return {};
