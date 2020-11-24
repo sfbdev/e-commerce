@@ -9,10 +9,10 @@ export default new Vuex.Store({
       id: 1,
       name: 'Tüm Kategoriler',
     },
-    basket: [{
+    basket: {
       count: 0,
       products: [],
-    }],
+    },
     categories: [{
         id: 1,
         name: "Tüm Kategoriler",
@@ -253,6 +253,11 @@ export default new Vuex.Store({
   mutations: {
     SET_ACTIVE_CATEGORY(state, category) {
       state.activeCategory = category;
+    },
+    ADD_PRODUCT_BASKET(state, product) {
+      state.basket.products.push(product);
+      state.basket.count = state.basket.products.length;
+      alert('Ürün Sepete Eklendi');
     }
   },
   actions: {
@@ -260,6 +265,11 @@ export default new Vuex.Store({
       commit
     }, category) {
       commit('SET_ACTIVE_CATEGORY', category)
+    },
+    setProductBasket({
+      commit
+    }, product) {
+      commit('ADD_PRODUCT_BASKET', product)
     }
   },
   modules: {},

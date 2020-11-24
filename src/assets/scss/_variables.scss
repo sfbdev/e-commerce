@@ -16,6 +16,8 @@
   --fifth-l: #DFC2E8;
 
   --white: #ffffff;
+  --black: #000000;
+
 
   --text-light: #707070;
   --text-dark: #000000;
@@ -35,6 +37,9 @@
 
   --radius: 28px;
 
+  --footer-bg: #F2F2F2;
+  --footer-bottom-bg: #E6E6E6;
+
   --border-color: #EDF1F2;
 }
 
@@ -49,12 +54,13 @@
 }
 
 $theme-colors: ("primary": var(--primary),
-  "secondary": var(--secondary), "white": var(--white)) !default;
+  "secondary": var(--secondary), "white": var(--white), "black": var(--black)) !default;
 
 $text-colors: (
   "dark": var(--text-dark),
   "light": var(--text-light),
   "gray": var(--text-gray),
+  "black": var(--black),
   "secondary": var(--secondary),
 ) !default;
 

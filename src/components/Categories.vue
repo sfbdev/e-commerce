@@ -4,7 +4,7 @@
       <img src="@/assets/images/icon/categories.svg" alt="" />
       <span class="title font-24px text-primary pl-1">Kategoriler</span>
     </div>
-    <div class="categories-content">
+    <div class="categories-content mt-2">
       <template v-for="(category, index) in categories">
         <div class="category" :class="[{'active': category.id == activeCategory.id}]" :key="index"
         @click="pushActiveCategory(category)">
@@ -30,7 +30,6 @@ export default {
     ...mapState({
       categories: (state) => state.categories,
       activeCategory: (state) => state.activeCategory,
-
     }),
   },
 
