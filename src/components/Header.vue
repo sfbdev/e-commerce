@@ -56,6 +56,7 @@
 import { mapState, mapActions } from "vuex";
 
 export default {
+  name: 'Header',
   data() {
     return {
       searchQuery: "",
@@ -77,7 +78,7 @@ export default {
 
   methods: {
     ...mapActions({
-      setSearchQuery: "setSearchQuery",
+      // setSearchQuery: "setSearchQuery",
       setBasketStatus: "setBasketStatus",
     }),
 

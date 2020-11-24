@@ -44,9 +44,9 @@
 
 <script>
 import { mapState, mapActions } from "vuex";
-("basket");
 
 export default {
+  name: 'basket',
   data() {
     return {};
   },

@@ -35,8 +35,8 @@
 <script>
 import { mapActions } from 'vuex';
 
-'cart';
 export default {
+  name: 'cart',
   props: {
     product: {
       type: Object,

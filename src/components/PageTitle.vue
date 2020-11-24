@@ -9,9 +9,9 @@
 </template>
 
 <script>
-'page-title';
 
 export default {
+  name : 'pageTitle',
   data() {
     return {};
   },

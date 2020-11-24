@@ -16,6 +16,7 @@
 import { mapState } from "vuex";
 
 export default {
+  name: 'productList',
   data() {
     return {};
   },
@@ -24,7 +25,7 @@ export default {
     ...mapState({
       activeCategory: (state) => state.activeCategory,
       allProducts: (state) => state.products,
-      searchQuery: (state) => state.searchQuery,
+      // searchQuery: (state) => state.searchQuery,
     }),
 
     filteredProducts() {

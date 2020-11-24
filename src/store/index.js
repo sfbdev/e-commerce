@@ -274,7 +274,8 @@ export default new Vuex.Store({
         price: '59,90',
       },
     ],
-    searchQuery: '',
+    // searchQuery: '',
+    openNotification: false,
   },
   mutations: {
     SET_ACTIVE_CATEGORY(state, category) {
@@ -285,11 +286,14 @@ export default new Vuex.Store({
       state.basket.count = state.basket.products.length;
       state.basket.amount += Math.floor(parseInt(product.price));
 
-      alert('Ürün Sepete Eklendi'); // eslint-disable-line no-alert
+      state.openNotification = true;
+      setTimeout(function () {
+        state.openNotification = false;
+      }, 2000);
     },
-    SET_SEARCH_QUERY(state, query) {
-      state.searchQuery = query;
-    },
+    // SET_SEARCH_QUERY(state, query) {
+    //   state.searchQuery = query;
+    // },
     SET_BASKET_STATUS(state, status) {
       state.basket.open = status;
     },
@@ -311,11 +315,11 @@ export default new Vuex.Store({
     }, product) {
       commit('ADD_PRODUCT_BASKET', product);
     },
-    setSearchQuery({
-      commit,
-    }, query) {
-      commit('SET_SEARCH_QUERY', query);
-    },
+    // setSearchQuery({
+    //   commit,
+    // }, query) {
+    //   commit('SET_SEARCH_QUERY', query);
+    // },
 
     setBasketStatus({
       commit

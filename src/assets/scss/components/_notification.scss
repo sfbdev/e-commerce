@@ -1,0 +1,13 @@
+﻿.notification{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 500px;
+  background-color: var(--secondary);
+  border-radius: 21px;
+  color: white;
+  padding: 10px;
+  span{
+    font-weight: 500;
+  }
+}
