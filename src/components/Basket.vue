@@ -1,6 +1,6 @@
 <template>
   <div class="basket-modal">
-    <span class="close position-absolute" @click="basket.open = false"
+    <span class="close position-fixed" @click="basket.open = false"
       >&times;</span
     >
     <div v-if="basket.products.length === 0">Sepetinizde Ürün Yok</div>

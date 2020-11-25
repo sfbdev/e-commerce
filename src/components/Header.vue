@@ -48,7 +48,7 @@
     </div>
 
     <app-basket v-if="basket.open"/>
-    <div v-if="basket.open" class="bg-dark"></div>
+    <div v-if="basket.open" @click="basket.open = false" class="bg-dark"></div>
   </div>
 </template>
 
