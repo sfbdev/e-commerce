@@ -24,7 +24,7 @@
             <span>{{ product.name }}</span>
           </div>
           <div class="product-price d-flex justify-content-between">
-            <span>{{ product.price }}</span>
+            <span>{{ product.price }} TL</span>
             <span>Adet: {{ product.count }}</span>
           </div>
         </div>
