@@ -19,7 +19,7 @@
             />
           </div>
         </div>
-        <div class="right d-flex flex-column justify-content-between pl-2">
+        <div class="right d-flex flex-column justify-content-between pl-2 w-75">
           <div class="product-name">
             <span>{{ product.name }}</span>
           </div>
