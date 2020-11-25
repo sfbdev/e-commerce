@@ -53,13 +53,13 @@
 </template>
 
 <script>
-import { mapState, mapActions } from "vuex";
+import { mapState, mapActions } from 'vuex';
 
 export default {
   name: 'Header',
   data() {
     return {
-      searchQuery: "",
+      searchQuery: '',
     };
   },
 
@@ -71,15 +71,15 @@ export default {
 
     amountBarStyle() {
       return this.basket.amount <= 500
-        ? "w-" + Math.floor(this.basket.amount / 5)
-        : "w-100";
+        ? `w-${Math.floor(this.basket.amount / 5)}`
+        : 'w-100';
     },
   },
 
   methods: {
     ...mapActions({
       // setSearchQuery: "setSearchQuery",
-      setBasketStatus: "setBasketStatus",
+      setBasketStatus: 'setBasketStatus',
     }),
 
     openBasket() {

@@ -47,7 +47,7 @@
 
       .count {
         position: absolute;
-        background-color: #FF5B4D;
+        background-color: var(--red);
         border-radius: 150px;
         width: 25px;
         font-weight: 500;
@@ -60,10 +60,11 @@
       position: absolute;
       padding: 15px;
       width: 300px;
-      background-color: #F54257;
+      background-color: var(--red-dark);
       border-radius: 11px;
       top: 65px;
-      @media (max-width: 576px){
+
+      @media (max-width: 576px) {
         left: -40%;
       }
 
@@ -76,20 +77,21 @@
         height: 0;
         border-left: 14px solid transparent;
         border-right: 14px solid transparent;
-        border-bottom: 14px solid #F54257;
+        border-bottom: 14px solid var(--red-dark);
       }
 
       .amount-bar {
         height: 5px;
-        background-color: #D01D32;
+        background-color: var(--red-alternative);
         border-radius: 11px;
         margin-top: 10px;
         position: relative;
-        &-done{
+
+        &-done {
           height: 5px;
           position: absolute;
           border-radius: 11px;
-          background-color: #FFCE00;
+          background-color: var(--yellow);
         }
 
       }

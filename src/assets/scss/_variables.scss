@@ -1,23 +1,12 @@
 ﻿:root {
-
   --primary: #044DC3;
   --primary-1: #D8EFD2;
 
   --secondary: #51B549;
   --secondary-l: #FFDDE4;
 
-  --tertiary: #ffffff;
-  --tertiary-l: #ffffff;
-
-  --quaternary: #ffffff;
-  --quaternary-l: #ffffff;
-
-  --fifth: #ffffff;
-  --fifth-l: #ffffff;
-
   --white: #ffffff;
   --black: #000000;
-
 
   --text-light: #707070;
   --text-dark: #000000;
@@ -31,13 +20,20 @@
   --xl-screen: 1200px;
 
   --search-bg: #F7F7F7;
-   --footer-bg: #F2F2F2;
+  --footer-bg: #F2F2F2;
   --footer-bottom-bg: #E6E6E6;
   --border-color: #EDF1F2;
+  --border-light: #E2E7E9;
+
+  --yellow: #FFCE00;
+
+  --red: #FF5B4D;
+  --red-dark: #F54257;
+  --red-alternative: #D01D32;
 
   --header-height: 90px;
   --radius: 28px;
- 
+
 }
 
 @for $i from 0 through 150 {
@@ -48,16 +44,18 @@
   .mt-#{$i}px {
     margin-top: #{$i}px !important;
   }
-  .w-#{$i}{
+
+  .w-#{$i} {
     width: #{$i+'%'} !important;
   }
 }
 
 $theme-colors: ("primary": var(--primary),
-  "secondary": var(--secondary), "white": var(--white), "black": var(--black)) !default;
+  "secondary": var(--secondary),
+  "white": var(--white),
+  "black": var(--black)) !default;
 
-$text-colors: (
-  "dark": var(--text-dark),
+$text-colors: ("dark": var(--text-dark),
   "light": var(--text-light),
   "gray": var(--text-gray),
   "black": var(--black),
@@ -76,13 +74,10 @@ $text-colors: (
   }
 }
 
-
-@each $color,
-$value in $theme-colors {
+@each $color, $value in $theme-colors {
   @include bg-variant(".bg-#{$color}", $value);
 }
 
-@each $color,
-$value in $text-colors {
+@each $color, $value in $text-colors {
   @include text-color-variant(".text-#{$color}", $value);
 }

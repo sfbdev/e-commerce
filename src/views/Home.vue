@@ -25,14 +25,15 @@
 </template>
 
 <script>
-import { mapState } from "vuex"
+import { mapState } from 'vuex';
+
 export default {
   name: 'Home',
 
   computed: {
     ...mapState({
-      openNotification: (state) => state.openNotification
-    })
+      openNotification: (state) => state.openNotification,
+    }),
   },
 };
 </script>

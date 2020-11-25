@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="basket-modal">
     <span class="close position-absolute" @click="basket.open = false"
       >&times;</span
@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import { mapState, mapActions } from "vuex";
+import { mapState, mapActions } from 'vuex';
 
 export default {
   name: 'basket',
@@ -58,7 +58,7 @@ export default {
   },
   methods: {
     ...mapActions({
-      deleteBasket: "deleteBasket",
+      deleteBasket: 'deleteBasket',
     }),
 
     clearBasket() {

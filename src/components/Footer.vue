@@ -4,7 +4,8 @@
       <div class="container">
         <div class="row">
           <div
-            class="mobile-apps d-flex flex-column flex-lg-row justify-content-center align-items-center w-100 position-relative"
+            class="mobile-apps d-flex flex-column flex-lg-row justify-content-center
+            align-items-center w-100 position-relative"
           >
             <div class="phone">
               <img src="../../src/assets/images/footer/phone.png" alt="Phone" />

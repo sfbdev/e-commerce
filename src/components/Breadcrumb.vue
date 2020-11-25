@@ -29,7 +29,7 @@
 <script>
 
 export default {
-  name: "breadcrumb",
+  name: 'breadcrumb',
   data() {
     return {};
   },
