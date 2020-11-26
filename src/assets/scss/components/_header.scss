@@ -1,6 +1,15 @@
-﻿.header {
+﻿.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--white);
+  z-index: 1300;
+}
+
+.header {
   display: grid;
   height: var(--header-height);
+
 
   @media (min-width: 576px) and (max-width: 768px) {
     grid-template-columns: 50% 50%;

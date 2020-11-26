@@ -31,7 +31,9 @@
       </div>
       <div class="total d-flex justify-content-between mt-2">
         <div class="left">
-          <span class="clear-basket-button" @click="clearBasket()">Sepeti Boşalt</span>
+          <span class="clear-basket-button" @click="clearBasket()"
+            >Sepeti Boşalt</span
+          >
         </div>
         <div class="right d-flex flex-column align-items-end">
           <span>Toplam Ürün: {{ basket.products.length }} Adet</span>
