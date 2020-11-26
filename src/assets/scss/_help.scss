@@ -16,7 +16,9 @@ input {
 //helper classes
 
 .content-wrapper {
-  margin-top: 90px;
+  @media (min-width: 576px) {
+    margin-top: 90px;
+  }
 }
 
 .radius-circle {

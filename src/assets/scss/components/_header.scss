@@ -1,9 +1,11 @@
 ﻿.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--white);
-  z-index: 1300;
+  @media (min-width: 576px) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--white);
+    z-index: 1300;
+  }
 }
 
 .header {
