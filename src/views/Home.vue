@@ -23,7 +23,7 @@
         </div>
       </div>
       <app-footer />
-      <app-notification v-if="openNotification" />
+      <app-notification  v-if="openNotification"/>
     </div>
   </div>
 </template>

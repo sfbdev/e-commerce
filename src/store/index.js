@@ -285,11 +285,11 @@ export default new Vuex.Store({
       state.basket.products.push(product);
       state.basket.count = state.basket.products.length;
       state.basket.amount += Math.floor(parseInt(product.price, 10));
-
       state.openNotification = true;
+
       setTimeout(() => {
         state.openNotification = false;
-      }, 2000);
+      }, 1500);
     },
     // SET_SEARCH_QUERY(state, query) {
     //   state.searchQuery = query;
